@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react'
-
+import LinksPage from './components/LinksPage'
 import './App.css'
 
 function App() {
@@ -7,7 +6,9 @@ function App() {
 
   return (
     <>
-      <LinksPage />
+      <div className="w-screen">
+        <LinksPage />
+      </div>
     </>
   )
 }
